@@ -24,6 +24,7 @@
 			<acme:menu-suboption code="master.menu.anonymous.fran-link" action="https://github.com/fraarrapo"/>
 			<acme:menu-suboption code="master.menu.anonymous.blanco-link" action="https://github.com/A-Blanco"/>
 			<acme:menu-suboption code="master.menu.anonymous.mari-link" action="https://github.com/marpinpas"/>
+			<acme:menu-suboption code="master.menu.anonymous.carlos-link" action="https://github.com/CarlosXUS"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
