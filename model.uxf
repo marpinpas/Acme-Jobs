@@ -296,4 +296,22 @@ m2=*
 has v</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
   </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>203</x>
+      <y>357</y>
+      <w>238</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+FernandezBulletin
+--
++ Name: String (NotBlank)
++ Country: String (NotBlank)
++ Email: String (NotBlank, Email)
++ Birthday: Date (Temporal(TIMESTAMP), Past)
++ Adress: String (NotBlank)</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>
