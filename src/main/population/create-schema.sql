@@ -13,6 +13,16 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `arroyo` (
+       `id` integer not null,
+        `version` integer not null,
+        `date_time_birth` datetime(6),
+        `description` varchar(255),
+        `name` varchar(255),
+        `phone` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `authenticated` (
        `id` integer not null,
         `version` integer not null,
@@ -46,6 +56,18 @@
         `user_account_id` integer,
         `company` varchar(255),
         `sector` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `romero` (
+       `id` integer not null,
+        `version` integer not null,
+        `fecha` datetime(6),
+        `free` bit,
+        `name` varchar(255),
+        `place` varchar(255),
+        `surnames` varchar(255),
+        `type` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
 
