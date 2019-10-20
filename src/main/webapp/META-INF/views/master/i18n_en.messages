@@ -37,6 +37,9 @@ master.menu.anonymous.adri-link = Adri's link
 master.menu.anonymous.mari-link = Mari's link
 master.menu.anonymous.carlos-link = Carlos's link
 
+master.menu.anonymous.cruz = Cruz's Bulletin
+master.menu.anonymous.list.cruz = List
+master.menu.anonymous.create.cruz = Create
 
 # master.menu.administrator ###################################################
 
