@@ -1,20 +1,49 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
-<!--
-- sample-data.xml
--
-- Copyright (c) 2019 Rafael Corchuelo.
--
-- In keeping with the traditional purpose of furthering education and research, it is
-- the policy of the copyright owner to permit non-commercial use and redistribution of
-- this software. It has been tested carefully, but it is not guaranteed for any particular
-- purposes.  The copyright owner does not offer any warranties or representations, nor do
-- they accept any liabilities with respect to them.
--->
+<!-- - sample-data.xml - - Copyright (c) 2019 Rafael Corchuelo. - - In keeping with the traditional purpose of furthering education and research, it is - the policy of the copyright owner to permit non-commercial use and redistribution of - this software. It has been tested carefully, but it is not guaranteed for any particular - purposes. The copyright owner does not offer any warranties or representations, nor do - they accept any liabilities with respect to them. -->
 
-<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<beans xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.springframework.org/schema/beans">
 
-	<import resource="conversion-service.xml" />
+<import resource="conversion-service.xml"/>
+
+
+	<bean class="acme.entities.Blanco.Blanco" id="blanco01">
+		<property value="Alberto Rodriguez" name="name"/>
+		<property value="Alberto123@hotmail.com" name="email"/>
+		<property value="Profesor" name="profession"/>
+		<property value="Ver el Betis" name="hobby"/>
+		<property value="2010/04/03 08:00" name="startdate"/>
+
+     </bean>
+
+
+<bean class="acme.entities.Blanco.Blanco" id="blanco02">
+
+<property value="Jose Antonio Gallardo" name="name"/>
+
+<property value="J.G@hotmail.com" name="email"/>
+
+<property value="Cocinero" name="profession"/>
+
+<property value="Ir al cine" name="hobby"/>
+
+<property value="2008/03/01 09:00" name="startdate"/>
+
+</bean>
+
+
+<bean class="acme.entities.Blanco.Blanco" id="blanco03">
+
+<property value="Manuel Martos" name="name"/>
+
+<property value="mamartos@hotmail.com" name="email"/>
+
+<property value="Entrenador" name="profession"/>
+
+<property value="Hacer deporte" name="hobby"/>
+
+<property value="2003/12/10 15:00" name="startdate"/>
+
+</bean>
 
 </beans>

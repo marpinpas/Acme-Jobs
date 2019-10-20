@@ -20,6 +20,17 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `blanco` (
+       `id` integer not null,
+        `version` integer not null,
+        `email` varchar(255),
+        `hobby` varchar(255),
+        `name` varchar(255),
+        `profession` varchar(255),
+        `startdate` datetime(6),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `consumer` (
        `id` integer not null,
         `version` integer not null,

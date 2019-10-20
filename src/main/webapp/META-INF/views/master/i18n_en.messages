@@ -36,6 +36,9 @@ master.menu.anonymous.blanco-link = Blanco's link
 master.menu.anonymous.adri-link = Adri's link
 master.menu.anonymous.mari-link = Mari's link
 master.menu.anonymous.carlos-link = Carlos's link
+master.menu.anonymous.blanco = Bulletin's Blanco
+master.menu.anonymous.list.blanco = List
+master.menu.anonymous.create.blanco = Create
 
 
 # master.menu.administrator ###################################################
