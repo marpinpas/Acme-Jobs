@@ -1,0 +1,23 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+anonymous.Blanco.list.label.name = Name
+anonymous.Blanco.list.label.email = Email
+anonymous.Blanco.list.label.profession = Profession
+anonymous.Blanco.list.label.hobby = Hobby
+anonymous.Blanco.list.label.startdate = StartDate
+
+anonymous.blanco.form.label.name = Name
+anonymous.blanco.form.label.email = Email
+anonymous.blanco.form.label.profession = Profession
+anonymous.blanco.form.label.hobby = Hobby
+anonymous.blanco.form.label.startdate = Initial Date
+anonymous.blanco.button.create = Create
+anonymous.blanco.button.return = Return

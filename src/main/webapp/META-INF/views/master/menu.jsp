@@ -26,6 +26,13 @@
 			<acme:menu-suboption code="master.menu.anonymous.mari-link" action="https://github.com/marpinpas"/>
 			<acme:menu-suboption code="master.menu.anonymous.carlos-link" action="https://github.com/CarlosXUS"/>
 		</acme:menu-option>
+		
+		<acme:menu-option code="master.menu.anonymous.blanco" access="isAnonymous()">
+       			 
+       			 <acme:menu-suboption code="master.menu.anonymous.list.blanco" action="/anonymous/blanco/list"/>
+	   			 <acme:menu-suboption code="master.menu.anonymous.create.blanco" action="/anonymous/blanco/create"/>
+       
+        </acme:menu-option>
 
 
 		<acme:menu-option code="master.menu.anonymous.arroyo" access="isAnonymous()">
