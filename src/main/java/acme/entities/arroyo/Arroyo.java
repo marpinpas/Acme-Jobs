@@ -1,5 +1,5 @@
 
-package acme.entities.shouts;
+package acme.entities.arroyo;
 
 import java.util.Date;
 

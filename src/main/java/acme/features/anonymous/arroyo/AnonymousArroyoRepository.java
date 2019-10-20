@@ -6,7 +6,7 @@ import java.util.Collection;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import acme.entities.shouts.Arroyo;
+import acme.entities.arroyo.Arroyo;
 import acme.framework.repositories.AbstractRepository;
 
 @Repository
