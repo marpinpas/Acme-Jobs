@@ -1,4 +1,4 @@
-# i18n_es.messages
+﻿# i18n_es.messages
 #
 # Copyright (c) 2019 Rafael Corchuelo.
 #
@@ -42,6 +42,25 @@ master.menu.anonymous.carlos-link = Link De Carlos
 master.menu.anonymous.fernandezbulletin = Boletín de Fernández
 master.menu.anonymous.list.fernandezbulletin = Lista
 master.menu.anonymous.create.fernandezbulletin = Crear
+
+
+master.menu.anonymous.cruz = Boletín de Cruz
+master.menu.anonymous.list.cruz = Lista
+master.menu.anonymous.create.cruz = Crear
+
+master.menu.anonymous.blanco = Boletín de Blanco
+master.menu.anonymous.list.blanco = Lista
+master.menu.anonymous.create.blanco = Crear
+
+master.menu.anonymous.list.arroyo = Lista
+master.menu.anonymous.create.arroyo = Crear
+master.menu.anonymous.arroyo = Boletín de Arroyo
+
+master.menu.anonymous.romero = Boletín de Romero
+master.menu.anonymous.list.romero = Listar
+master.menu.anonymous.create.romero = Crear
+
+
 
 
 # master.menu.administrator ###################################################
