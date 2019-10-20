@@ -50,6 +50,17 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `fernandez_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `address` varchar(255),
+        `birthday` datetime(6),
+        `country` varchar(255),
+        `email` varchar(255),
+        `name` varchar(255),
+        primary key (`id`)
+          ) engine=InnoDB;
+
     create table `cruz` (
        `id` integer not null,
         `version` integer not null,

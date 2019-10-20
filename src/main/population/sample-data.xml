@@ -116,9 +116,34 @@
 	<property name="text" value="Black Hole"/>
 	<property name="moment" value="2019/09/25 22:15"/>
 </bean>
+  
+  <bean id="bulletin01" class="acme.entities.bulletins.FernandezBulletin">
+		<property name="name" value="Adrui" />
+		<property name="country" value="Spain" />
+		<property name="email" value="adrui@gmail.com" />
+		<property name="birthday" value="1998/06/23 00:00" />
+		<property name="address" value="Valencina de la concepcion" />
+	</bean>
+	
+	<bean id="bulletin02" class="acme.entities.bulletins.FernandezBulletin">
+		<property name="name" value="Clara" />
+		<property name="country" value="Spain" />
+		<property name="email" value="clara@gmail.com" />
+		<property name="birthday" value="2003/04/08 00:00" />
+		<property name="address" value="Valencina de la concepcion" />
+	</bean>
+	
+	<bean id="bulletin03" class="acme.entities.bulletins.FernandezBulletin">
+		<property name="name" value="Andres" />
+		<property name="country" value="Spain" />
+		<property name="email" value="adrui@gmail.com" />
+		<property name="birthday" value="2013/11/26 00:00" />
+		<property name="address" value="Milano Plomizo" />
+	</bean>
 
   
 
 
 </beans>
+
 

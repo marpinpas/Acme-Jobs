@@ -28,6 +28,11 @@
 		</acme:menu-option>
 		
 
+		<acme:menu-option code="master.menu.anonymous.fernandezbulletin" access="isAnonymous()">
+			<acme:menu-suboption code="master.menu.anonymous.list.fernandezbulletin" action="/anonymous/fernandez-bulletin/list"/>
+			<acme:menu-suboption code="master.menu.anonymous.create.fernandezbulletin" action="/anonymous/fernandez-bulletin/create"/>
+		</acme:menu-option>
+
 		<acme:menu-option code="master.menu.anonymous.cruz" access="isAnonymous()">
         	<acme:menu-suboption code="master.menu.anonymous.list.cruz" action="/anonymous/cruz/list"/>
 	    	<acme:menu-suboption code="master.menu.anonymous.create.cruz" action="/anonymous/cruz/create"/>

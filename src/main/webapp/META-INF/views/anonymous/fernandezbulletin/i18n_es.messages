@@ -1,0 +1,12 @@
+anonymous.fernandezbulletin.form.label.name = Nombre:
+anonymous.fernandezbulletin.form.label.country = Pais:
+anonymous.fernandezbulletin.form.label.email = Email:
+anonymous.fernandezbulletin.form.label.address = Dirección:
+anonymous.fernandezbulletin.form.button.create = Enviar
+anonymous.fernandezbulletin.form.button.return = Volver
+
+anonymous.fernandezbulletin.list.label.name = Nombre
+anonymous.fernandezbulletin.list.label.country = Pais
+anonymous.fernandezbulletin.list.label.email = Email
+anonymous.fernandezbulletin.list.label.birthday = Fecha de Nacimiento
+anonymous.fernandezbulletin.list.label.address = Direccion
