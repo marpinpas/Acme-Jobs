@@ -23,13 +23,19 @@
 
     drop table if exists `anonymous`;
 
+    drop table if exists `arroyo`;
+
     drop table if exists `authenticated`;
+
+    drop table if exists `blanco`;
 
     drop table if exists `consumer`;
 
     drop table if exists `cruz`;
 
     drop table if exists `provider`;
+
+    drop table if exists `romero`;
 
     drop table if exists `user_account`;
 

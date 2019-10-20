@@ -263,8 +263,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>476</x>
-      <y>0</y>
+      <x>420</x>
+      <y>21</y>
       <w>238</w>
       <h>91</h>
     </coordinates>
@@ -285,16 +285,54 @@ UserAccount
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>595</x>
-      <y>84</y>
-      <w>49</w>
-      <h>98</h>
+      <x>539</x>
+      <y>105</y>
+      <w>77</w>
+      <h>77</h>
     </coordinates>
     <panel_attributes>lt=&lt;-&gt;
 m1=1
 m2=*
 has v</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
+    <additional_attributes>10.0;10.0;90.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>273</x>
+      <y>427</y>
+      <w>224</w>
+      <h>105</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+RomeroBulletin
+--
++name: String(NotBlank)
++surnames: String(NotBlank)
++place: String(NotBlank)
++type: String(NotBlank)
++fecha: Date(Temporal(TIMESTAMP),Future)
++free: boolean
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>287</x>
+      <y>350</y>
+      <w>266</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Arroyo
+--
++ dateTimeBirth: Date {Temporal(TIMESTAMP), Past}
++ name: String {NotBlank}
++ description: String {NotBlank}
++ phone: String {NotBlank}
+</panel_attributes>
+    <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
