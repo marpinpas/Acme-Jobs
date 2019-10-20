@@ -50,6 +50,17 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `cruz` (
+       `id` integer not null,
+        `version` integer not null,
+        `age` integer,
+        `author` varchar(255),
+        `moment` datetime(6),
+        `phone` varchar(255),
+        `text` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `provider` (
        `id` integer not null,
         `version` integer not null,

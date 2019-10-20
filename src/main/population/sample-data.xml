@@ -91,5 +91,34 @@
 <property value="Hacer deporte" name="hobby"/>
 <property value="2003/12/10 15:00" name="startdate"/>
 </bean>
+  
+
+<bean id="cruz01" class="acme.entities.cruz.Cruz">
+<property name="author" value="Henry Paz"/>
+<property name="age" value="35"/>
+<property name="phone" value="684253975"/>
+<property name="text" value="Rainbow in the sky"/>
+<property name="moment" value="2019/08/25 10:00"/>
+</bean>
+	
+<bean id="cruz02" class="acme.entities.cruz.Cruz">
+  <property name="author" value="Julia White"/>
+	<property name="age" value="66"/>
+	<property name="phone" value="785462598"/>
+	<property name="text" value="Quake"/>
+	<property name="moment" value="2019/09/13 15:30"/>
+</bean>
+	
+<bean id="cruz03" class="acme.entities.cruz.Cruz">
+	<property name="author" value="Ruben Moon"/>
+	<property name="age" value="47"/>
+	<property name="phone" value="642587935"/>
+	<property name="text" value="Black Hole"/>
+	<property name="moment" value="2019/09/25 22:15"/>
+</bean>
+
+  
+
 
 </beans>
+
