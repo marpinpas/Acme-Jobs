@@ -13,6 +13,16 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `arroyo` (
+       `id` integer not null,
+        `version` integer not null,
+        `date_time_birth` datetime(6),
+        `description` varchar(255),
+        `name` varchar(255),
+        `phone` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `authenticated` (
        `id` integer not null,
         `version` integer not null,
