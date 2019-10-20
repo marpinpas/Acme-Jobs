@@ -19,21 +19,21 @@
 
 	<!-- Shouts -->
 	
-	<bean id="arroyoBulletin01" class="acme.entities.shouts.Arroyo">
+	<bean id="arroyoBulletin01" class="acme.entities.arroyo.Arroyo">
 		<property name="name" value="Carlos Cruz"/>
 		<property name="description" value="Chico de 20 años, mide 1,75m. Abierto y sincero"/>
 		<property name="dateTimeBirth" value="1999/01/14 08:00"/>
 		<property name="phone" value="654879142"/>
 	</bean>
 
-	<bean id="arroyoBulletin02" class="acme.entities.shouts.Arroyo">
+	<bean id="arroyoBulletin02" class="acme.entities.arroyo.Arroyo">
 		<property name="name" value="Paco Arroyo"/>
 		<property name="description" value="Chico de 20 años, mide 1,80m. Introvertido y simpático"/>
 		<property name="dateTimeBirth" value="1999/08/03 10:20"/>
 		<property name="phone" value="652958000"/>
 	</bean>
 	
-	<bean id="arroyoBulletin03" class="acme.entities.shouts.Arroyo">
+	<bean id="arroyoBulletin03" class="acme.entities.arroyo.Arroyo">
 		<property name="name" value="Javier Romero"/>
 		<property name="description" value="Chico de 20 años, mide 1,78m. Introvertido y trabajador"/>
 		<property name="dateTimeBirth" value="1999/05/26 05:00"/>
