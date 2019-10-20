@@ -16,6 +16,33 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 	<import resource="conversion-service.xml" />
+	
+	<bean id = "romerobulletin01" class="acme.entities.romero.Romero">
+	<property name="name" value="John"></property>
+	<property name="surnames" value="Doe Doe"></property>
+	<property name="place" value="Calle Hierro 12"></property>
+	<property name="type" value="Educativa"></property>
+	<property name="fecha" value="2019/12/24 12:30"></property>
+	<property name="free" value="true"></property>
+	</bean>
+	
+	<bean id = "romerobulletin02" class="acme.entities.romero.Romero">
+	<property name="name" value="Jane"></property>
+	<property name="surnames" value="Doe Doe"></property>
+	<property name="place" value="Calle Cobre 12"></property>
+	<property name="type" value="Deportiva"></property>
+	<property name="fecha" value="2019/12/25 00:30"></property>
+	<property name="free" value="true"></property>
+	</bean>
+	
+	<bean id = "romerobulletin03" class="acme.entities.romero.Romero">
+	<property name="name" value="Peter"></property>
+	<property name="surnames" value="Res Gez"></property>
+	<property name="place" value="Calle Madera 1"></property>
+	<property name="type" value="Empresarial"></property>
+	<property name="fecha" value="2019/12/11 11:30"></property>
+	<property name="free" value="false"></property>
+	</bean>
 
 	<!-- Shouts -->
 	

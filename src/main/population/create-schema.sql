@@ -48,6 +48,18 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `romero` (
+       `id` integer not null,
+        `version` integer not null,
+        `fecha` datetime(6),
+        `free` bit,
+        `name` varchar(255),
+        `place` varchar(255),
+        `surnames` varchar(255),
+        `type` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `user_account` (
        `id` integer not null,
         `version` integer not null,

@@ -1,4 +1,4 @@
-# i18n_en.messages
+﻿# i18n_en.messages
 #
 # Copyright (c) 2019 Rafael Corchuelo.
 #
@@ -39,6 +39,10 @@ master.menu.anonymous.carlos-link = Carlos's link
 master.menu.anonymous.list.arroyo = List
 master.menu.anonymous.create.arroyo = Create
 master.menu.anonymous.arroyo = Arroyo's bulletin
+
+master.menu.anonymous.romero = Romero's Bulletin
+master.menu.anonymous.list.romero = List
+master.menu.anonymous.create.romero = Create
 
 
 # master.menu.administrator ###################################################
