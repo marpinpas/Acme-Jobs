@@ -18,8 +18,12 @@
 
 <tiles-definitions>
 
-	<definition name="authenticated/user-account/form" extends="master">
-		<put-attribute name="body" type="template" value="../authenticated/user-account/form.jsp" />
+	<definition name="anonymous/cruz-bulletin/form" extends="master">
+		<put-attribute name="body" type="template" value="../anonymous/cruzbulletin/form.jsp" />
+	</definition>
+
+	<definition name="anonymous/cruz-bulletin/list" extends="master">
+		<put-attribute name="body" type="template" value="../anonymous/cruzbulletin/list.jsp" />
 	</definition>
 
 </tiles-definitions>

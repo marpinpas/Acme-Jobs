@@ -17,7 +17,7 @@
 
 	<import resource="conversion-service.xml" />
 	
-	<bean id = "romerobulletin01" class="acme.entities.romero.Romero">
+	<bean id = "romerobulletin01" class="acme.entities.bulletins.RomeroBulletin">
 	<property name="name" value="John"></property>
 	<property name="surnames" value="Doe Doe"></property>
 	<property name="place" value="Calle Hierro 12"></property>
@@ -26,7 +26,7 @@
 	<property name="free" value="true"></property>
 	</bean>
 	
-	<bean id = "romerobulletin02" class="acme.entities.romero.Romero">
+	<bean id = "romerobulletin02" class="acme.entities.bulletins.RomeroBulletin">
 	<property name="name" value="Jane"></property>
 	<property name="surnames" value="Doe Doe"></property>
 	<property name="place" value="Calle Cobre 12"></property>
@@ -35,7 +35,7 @@
 	<property name="free" value="true"></property>
 	</bean>
 	
-	<bean id = "romerobulletin03" class="acme.entities.romero.Romero">
+	<bean id = "romerobulletin03" class="acme.entities.bulletins.RomeroBulletin">
 	<property name="name" value="Peter"></property>
 	<property name="surnames" value="Res Gez"></property>
 	<property name="place" value="Calle Madera 1"></property>
@@ -43,30 +43,51 @@
 	<property name="fecha" value="2019/12/11 11:30"></property>
 	<property name="free" value="false"></property>
 	</bean>
+  
+  
+	<bean id="pineroBulletin01" class="acme.entities.bulletins.PineroBulletin">
+		<property name="title" value="title1"/>
+		<property name="body" value="body1"/>
+		<property name="signature" value="signature1"/>
+		
+	</bean>
+	
+		<bean id="pineroBulletin02" class="acme.entities.bulletins.PineroBulletin">
+		<property name="title" value="title2"/>
+		<property name="body" value="body2"/>
+		<property name="signature" value="signature2"/>
+		
+	</bean>
+	
+		<bean id="pineroBulletin03" class="acme.entities.bulletins.PineroBulletin">
+		<property name="title" value="title3"/>
+		<property name="body" value="body3"/>
+		<property name="signature" value="signature3"/>
+		</bean>
 
 	
-	<bean id="arroyoBulletin01" class="acme.entities.arroyo.Arroyo">
+	<bean id="arroyoBulletin01" class="acme.entities.bulletins.ArroyoBulletin">
 		<property name="name" value="Carlos Cruz"/>
 		<property name="description" value="Chico de 20 años, mide 1,75m. Abierto y sincero"/>
 		<property name="dateTimeBirth" value="1999/01/14 08:00"/>
 		<property name="phone" value="654879142"/>
 	</bean>
 
-	<bean id="arroyoBulletin02" class="acme.entities.arroyo.Arroyo">
+	<bean id="arroyoBulletin02" class="acme.entities.bulletins.ArroyoBulletin">
 		<property name="name" value="Paco Arroyo"/>
 		<property name="description" value="Chico de 20 años, mide 1,80m. Introvertido y simpático"/>
 		<property name="dateTimeBirth" value="1999/08/03 10:20"/>
 		<property name="phone" value="652958000"/>
 	</bean>
 	
-	<bean id="arroyoBulletin03" class="acme.entities.arroyo.Arroyo">
+	<bean id="arroyoBulletin03" class="acme.entities.bulletins.ArroyoBulletin">
 		<property name="name" value="Javier Romero"/>
 		<property name="description" value="Chico de 20 años, mide 1,78m. Introvertido y trabajador"/>
 		<property name="dateTimeBirth" value="1999/05/26 05:00"/>
 		<property name="phone" value="647210548"/>
 	</bean>
   
-  <bean class="acme.entities.Blanco.Blanco" id="blanco01">
+  <bean class="acme.entities.bulletins.BlancoBulletin" id="blanco01">
 	<property value="Alberto Rodriguez" name="name"/>
 	<property value="Alberto123@hotmail.com" name="email"/>
 	<property value="Profesor" name="profession"/>
@@ -75,7 +96,7 @@
   </bean>
 
 
-<bean class="acme.entities.Blanco.Blanco" id="blanco02">
+<bean class="acme.entities.bulletins.BlancoBulletin" id="blanco02">
 <property value="Jose Antonio Gallardo" name="name"/>
 <property value="J.G@hotmail.com" name="email"/>
 <property value="Cocinero" name="profession"/>
@@ -84,7 +105,7 @@
 </bean>
 
 
-<bean class="acme.entities.Blanco.Blanco" id="blanco03">
+<bean class="acme.entities.bulletins.BlancoBulletin" id="blanco03">
 <property value="Manuel Martos" name="name"/>
 <property value="mamartos@hotmail.com" name="email"/>
 <property value="Entrenador" name="profession"/>
@@ -93,7 +114,7 @@
 </bean>
   
 
-<bean id="cruz01" class="acme.entities.cruz.Cruz">
+<bean id="cruz01" class="acme.entities.bulletins.CruzBulletin">
 <property name="author" value="Henry Paz"/>
 <property name="age" value="35"/>
 <property name="phone" value="684253975"/>
@@ -101,7 +122,7 @@
 <property name="moment" value="2019/08/25 10:00"/>
 </bean>
 	
-<bean id="cruz02" class="acme.entities.cruz.Cruz">
+<bean id="cruz02" class="acme.entities.bulletins.CruzBulletin">
   <property name="author" value="Julia White"/>
 	<property name="age" value="66"/>
 	<property name="phone" value="785462598"/>
@@ -109,7 +130,7 @@
 	<property name="moment" value="2019/09/13 15:30"/>
 </bean>
 	
-<bean id="cruz03" class="acme.entities.cruz.Cruz">
+<bean id="cruz03" class="acme.entities.bulletins.CruzBulletin">
 	<property name="author" value="Ruben Moon"/>
 	<property name="age" value="47"/>
 	<property name="phone" value="642587935"/>

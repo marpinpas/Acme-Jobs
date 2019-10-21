@@ -27,3 +27,6 @@ administrator.user-account.list.title = Listing of user accounts
 administrator.user-account.list.label.username = Username
 administrator.user-account.list.label.name = Name
 administrator.user-account.list.label.surname = Surname
+anonymous.bulletinPinero.list.label.title = title
+anonymous.bulletinPinero.list.label.body = body
+anonymous.bulletinPinero.list.label.signature = signature
