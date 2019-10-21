@@ -1,0 +1,11 @@
+anonymous.arroyo.list.label.dateTimeBirth = Date and time of birth
+anonymous.arroyo.list.label.name = Name and surname
+anonymous.arroyo.list.label.description = Description
+anonymous.arroyo.list.label.phone = Phone number
+
+anonymous.arroyo.form.label.name = Name and surname
+anonymous.arroyo.form.label.description = Description
+anonymous.arroyo.form.label.dateTimeBirth = Date and time of birth
+anonymous.arroyo.form.label.phone = Phone number
+anonymous.arroyo.form.button.create = Create
+anonymous.arroyo.form.button.return = Return

@@ -27,6 +27,11 @@
 			<acme:menu-suboption code="master.menu.anonymous.carlos-link" action="https://github.com/CarlosXUS"/>
 		</acme:menu-option>
 		
+		<acme:menu-option code="master.menu.anonymous.pinerobulletin" access="isAnonymous()">
+			<acme:menu-suboption code="master.menu.anonymous.list.pinerobulletin" action="/anonymous/pinero-bulletin/list"/>
+			<acme:menu-suboption code="master.menu.anonymous.create.pinerobulletin" action="/anonymous/pinero-bulletin/create"/>
+		</acme:menu-option>
+
 
 		<acme:menu-option code="master.menu.anonymous.fernandezbulletin" access="isAnonymous()">
 			<acme:menu-suboption code="master.menu.anonymous.list.fernandezbulletin" action="/anonymous/fernandez-bulletin/list"/>
@@ -34,24 +39,24 @@
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.anonymous.cruz" access="isAnonymous()">
-        	<acme:menu-suboption code="master.menu.anonymous.list.cruz" action="/anonymous/cruz/list"/>
-	    	<acme:menu-suboption code="master.menu.anonymous.create.cruz" action="/anonymous/cruz/create"/>
+        	<acme:menu-suboption code="master.menu.anonymous.list.cruz" action="/anonymous/cruz-bulletin/list"/>
+	    	<acme:menu-suboption code="master.menu.anonymous.create.cruz" action="/anonymous/cruz-bulletin/create"/>
      </acme:menu-option>
 
 		<acme:menu-option code="master.menu.anonymous.blanco" access="isAnonymous()">
-       			 <acme:menu-suboption code="master.menu.anonymous.list.blanco" action="/anonymous/blanco/list"/>
-	   			 <acme:menu-suboption code="master.menu.anonymous.create.blanco" action="/anonymous/blanco/create"/>
+       			 <acme:menu-suboption code="master.menu.anonymous.list.blanco" action="/anonymous/blanco-bulletin/list"/>
+	   			 <acme:menu-suboption code="master.menu.anonymous.create.blanco" action="/anonymous/blanco-bulletin/create"/>
         </acme:menu-option>
 
 
 		<acme:menu-option code="master.menu.anonymous.arroyo" access="isAnonymous()">
-       		<acme:menu-suboption code="master.menu.anonymous.list.arroyo" action="/anonymous/arroyo/list"/>
-	    	<acme:menu-suboption code="master.menu.anonymous.create.arroyo" action="/anonymous/arroyo/create"/>
+       		<acme:menu-suboption code="master.menu.anonymous.list.arroyo" action="/anonymous/arroyo-bulletin/list"/>
+	    	<acme:menu-suboption code="master.menu.anonymous.create.arroyo" action="/anonymous/arroyo-bulletin/create"/>
         </acme:menu-option>
 		
         <acme:menu-option code="master.menu.anonymous.romero" access="isAnonymous()">
-        <acme:menu-suboption code="master.menu.anonymous.list.romero" action="/anonymous/romero/list"/>
-	    <acme:menu-suboption code="master.menu.anonymous.create.romero" action="/anonymous/romero/create"/>
+        <acme:menu-suboption code="master.menu.anonymous.list.romero" action="/anonymous/romero-bulletin/list"/>
+	    <acme:menu-suboption code="master.menu.anonymous.create.romero" action="/anonymous/romero-bulletin/create"/>
         </acme:menu-option>
        
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
