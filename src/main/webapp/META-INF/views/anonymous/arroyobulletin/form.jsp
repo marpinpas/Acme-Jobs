@@ -9,6 +9,6 @@
 	<acme:form-textbox code="anonymous.arroyo.form.label.dateTimeBirth" path="dateTimeBirth"/>
 	<acme:form-textbox code="anonymous.arroyo.form.label.phone" path="phone"/>
 	
-	<acme:form-submit code="anonymous.arroyo.form.button.create" action="/anonymous/arroyo/create"/>
+	<acme:form-submit code="anonymous.arroyo.form.button.create" action="/anonymous/arroyo-bulletin/create"/>
 	<acme:form-return code="anonymous.arroyo.form.button.return"/>
 </acme:form>

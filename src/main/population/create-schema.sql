@@ -1,3 +1,4 @@
+
     create table `administrator` (
        `id` integer not null,
         `version` integer not null,
@@ -12,7 +13,7 @@
         primary key (`id`)
     ) engine=InnoDB;
 
-    create table `arroyo` (
+    create table `arroyo_bulletin` (
        `id` integer not null,
         `version` integer not null,
         `date_time_birth` datetime(6),
@@ -29,7 +30,7 @@
         primary key (`id`)
     ) engine=InnoDB;
 
-    create table `blanco` (
+    create table `blanco_bulletin` (
        `id` integer not null,
         `version` integer not null,
         `email` varchar(255),
@@ -49,18 +50,7 @@
         primary key (`id`)
     ) engine=InnoDB;
 
-    create table `fernandez_bulletin` (
-       `id` integer not null,
-        `version` integer not null,
-        `address` varchar(255),
-        `birthday` datetime(6),
-        `country` varchar(255),
-        `email` varchar(255),
-        `name` varchar(255),
-        primary key (`id`)
-          ) engine=InnoDB;
-
-    create table `cruz` (
+    create table `cruz_bulletin` (
        `id` integer not null,
         `version` integer not null,
         `age` integer,
@@ -70,8 +60,18 @@
         `text` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
-    
-    
+
+    create table `fernandez_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `address` varchar(255),
+        `birthday` datetime(6),
+        `country` varchar(255),
+        `email` varchar(255),
+        `name` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `pinero_bulletin` (
        `id` integer not null,
         `version` integer not null,
@@ -90,7 +90,7 @@
         primary key (`id`)
     ) engine=InnoDB;
 
-    create table `romero` (
+    create table `romero_bulletin` (
        `id` integer not null,
         `version` integer not null,
         `fecha` datetime(6),

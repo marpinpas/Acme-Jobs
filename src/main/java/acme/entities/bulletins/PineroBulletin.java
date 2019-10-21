@@ -1,5 +1,5 @@
 
-package acme.entities.bulletin;
+package acme.entities.bulletins;
 
 import javax.persistence.Entity;
 import javax.validation.constraints.NotBlank;

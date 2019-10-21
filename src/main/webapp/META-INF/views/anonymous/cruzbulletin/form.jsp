@@ -21,6 +21,6 @@
 	<acme:form-textbox code="anonymous.cruz.form.label.phone" path="phone"/>
 	<acme:form-textarea code="anonymous.cruz.form.label.text" path="text"/>
 	
-	<acme:form-submit code="anonymous.cruz.form.button.create" action="/anonymous/cruz/create"/>
+	<acme:form-submit code="anonymous.cruz.form.button.create" action="/anonymous/cruz-bulletin/create"/>
   	<acme:form-return code="anonymous.cruz.form.button.return"/>
 </acme:form>

@@ -19,6 +19,6 @@
 <acme:form-option code="anonymous.romero.form.label.free.no" value="false"/>
 </acme:form-select>
 
-<acme:form-submit code="anonymous.romero.button.create" action="/anonymous/romero/create"/>
+<acme:form-submit code="anonymous.romero.button.create" action="/anonymous/romero-bulletin/create"/>
  <acme:form-return code="anonymous.romero.button.return"/>
 </acme:form>

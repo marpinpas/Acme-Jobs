@@ -13,7 +13,7 @@
 	<acme:form-moment code="anonymous.blanco.form.label.startdate" path="startdate"/>
 	
 	
-	<acme:form-submit code="anonymous.blanco.button.create" action="/anonymous/blanco/create"/>
+	<acme:form-submit code="anonymous.blanco.button.create" action="/anonymous/blanco-bulletin/create"/>
   	<acme:form-return code="anonymous.blanco.button.return"/>
   	
   	

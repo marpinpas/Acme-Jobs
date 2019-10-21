@@ -6,7 +6,7 @@ import java.util.Collection;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import acme.entities.bulletin.PineroBulletin;
+import acme.entities.bulletins.PineroBulletin;
 import acme.framework.repositories.AbstractRepository;
 
 @Repository
