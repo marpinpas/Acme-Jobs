@@ -43,6 +43,26 @@
 	<property name="fecha" value="2019/12/11 11:30"></property>
 	<property name="free" value="false"></property>
 	</bean>
+  
+  
+	<bean id="pineroBulletin01" class="acme.entities.bulletin.pineroBulletin">
+		<property name="title" value="title1"/>
+		<property name="body" value="body1"/>
+		<property name="signature" value="signature1"/>
+		
+	</bean>
+	
+		<bean id="pineroBulletin02" class="acme.entities.bulletin.pineroBulletin">
+		<property name="title" value="title2"/>
+		<property name="body" value="body2"/>
+		<property name="signature" value="signature2"/>
+		
+	</bean>
+	
+		<bean id="pineroBulletin03" class="acme.entities.bulletin.pineroBulletin">
+		<property name="title" value="title3"/>
+		<property name="body" value="body3"/>
+		<property name="signature" value="signature3"/>
 
 	
 	<bean id="arroyoBulletin01" class="acme.entities.bulletins.ArroyoBulletin">

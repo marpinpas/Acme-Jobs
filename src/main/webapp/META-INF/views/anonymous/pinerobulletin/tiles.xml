@@ -18,8 +18,13 @@
 
 <tiles-definitions>
 
-	<definition name="authenticated/user-account/form" extends="master">
-		<put-attribute name="body" type="template" value="../authenticated/user-account/form.jsp" />
+	
+		<definition name="anonymous/pinero-bulletin/list" extends="master">		
+		<put-attribute name="body" type="template" value="../anonymous/pinerobulletin/list.jsp" />
+	  </definition>
+	
+	<definition name="anonymous/pinero-bulletin/form" extends="master">
+		<put-attribute name="body" type="template" value="../anonymous/pinerobulletin/form.jsp" />
 	</definition>
 
 </tiles-definitions>

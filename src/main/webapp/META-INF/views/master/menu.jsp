@@ -27,6 +27,11 @@
 			<acme:menu-suboption code="master.menu.anonymous.carlos-link" action="https://github.com/CarlosXUS"/>
 		</acme:menu-option>
 		
+		<acme:menu-option code="master.menu.anonymous.pinerobulletin" access="isAnonymous()">
+			<acme:menu-suboption code="master.menu.anonymous.list.pinerobulletin" action="/anonymous/pinero-bulletin/list"/>
+			<acme:menu-suboption code="master.menu.anonymous.create.pinerobulletin" action="/anonymous/pinero-bulletin/create"/>
+		</acme:menu-option>
+
 
 		<acme:menu-option code="master.menu.anonymous.fernandezbulletin" access="isAnonymous()">
 			<acme:menu-suboption code="master.menu.anonymous.list.fernandezbulletin" action="/anonymous/fernandez-bulletin/list"/>
