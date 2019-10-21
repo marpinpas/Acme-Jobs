@@ -1,4 +1,4 @@
-# i18n_en.messages
+﻿# i18n_en.messages
 #
 # Copyright (c) 2019 Rafael Corchuelo.
 #
@@ -37,9 +37,43 @@ master.menu.anonymous.adri-link = Adri's link
 master.menu.anonymous.mari-link = Mari's link
 master.menu.anonymous.carlos-link = Carlos's link
 
+# master.menu.anonymous.pinerobulletin ###############################################
+
 master.menu.anonymous.list.pinerobulletin= List
 master.menu.anonymous.create.pinerobulletin= Create
 master.menu.anonymous.pinerobulletin= Pinero's Bulletin
+
+# master.menu.anonymous.fernandezbulletin ###############################################
+
+master.menu.anonymous.fernandezbulletin = Fernández's Bulletin
+master.menu.anonymous.list.fernandezbulletin = List
+master.menu.anonymous.create.fernandezbulletin = Create
+
+# master.menu.anonymous.cruzbulletin ###############################################
+
+master.menu.anonymous.cruz = Cruz's Bulletin
+master.menu.anonymous.list.cruz = List
+master.menu.anonymous.create.cruz = Create
+
+# master.menu.anonymous.blancobulletin ###############################################
+
+master.menu.anonymous.blanco = Bulletin's Blanco
+master.menu.anonymous.list.blanco = List
+master.menu.anonymous.create.blanco = Create
+
+# master.menu.anonymous.arroyobulletin ###############################################
+
+master.menu.anonymous.list.arroyo = List
+master.menu.anonymous.create.arroyo = Create
+master.menu.anonymous.arroyo = Arroyo's bulletin
+
+
+# master.menu.anonymous.romerobulletin ###############################################
+
+master.menu.anonymous.romero = Romero's Bulletin
+master.menu.anonymous.list.romero = List
+master.menu.anonymous.create.romero = Create
+
 
 
 # master.menu.administrator ###################################################
