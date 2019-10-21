@@ -29,6 +29,15 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `pinero_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `body` varchar(255),
+        `signature` varchar(255),
+        `title` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `provider` (
        `id` integer not null,
         `version` integer not null,

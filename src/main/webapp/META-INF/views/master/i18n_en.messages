@@ -37,6 +37,10 @@ master.menu.anonymous.adri-link = Adri's link
 master.menu.anonymous.mari-link = Mari's link
 master.menu.anonymous.carlos-link = Carlos's link
 
+master.menu.anonymous.list.pinerobulletin= List
+master.menu.anonymous.create.pinerobulletin= Create
+master.menu.anonymous.pinerobulletin= Pinero's Bulletin
+
 
 # master.menu.administrator ###################################################
 
