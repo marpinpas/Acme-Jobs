@@ -15,9 +15,7 @@ master.banner.background = #FFE97F
 ﻿# master.welcome ##############################################################
 
 master.welcome.title = ¡Bienvenidos!
-master.welcome.text = \
-	Bienvenidos a Acme Stater!  Nunca antes ha sido tan sencillo desarrollar un \
-	proyecto y hacerlo funcionar.
+master.welcome.text = Bienvenidos a Acme-Jobs, tu web favorita para encontrar tu trabajo ideal.
 
 # master.menu #################################################################
 
@@ -110,25 +108,14 @@ master.footer.label.spanish = Español
 
 # master.company ##############################################################
 
-master.company.title = La compañía
-master.company.text = \
-	Starter Project, Inc. es una compañía fictícia que proporciona un proyecto \
-	plantilla para los estudiantes de la asignatura Diseño y Pruebas, en el Grado \
-	en Ingeniería del Software de la Universidad de Sevilla.
-master.company.name = Starter Project, Inc.
-master.company.address = Calle, número, Ciudad, Estado, País
-master.company.phone = +000 123 456
-master.company.email = contact@acme.com
+master.company.title = Acme Jobs Company
+master.company.text = Acme Jobs Company ofrece la mejor plataforma para buscar trabajo de todo el mundo.
+master.company.name = AcmeJobs, Inc.
+master.company.address = 42 Avenida Reina Mercedes, Sevilla, Sevilla, España
+master.company.phone = +34 606 313 167
+master.company.email = acme-jobs-2019@gmail.com
 
 # master.license ##############################################################
-
 master.license.title = Licencia
-master.license.text = \
-	Puede usar este sistema de forma completamente gratuita respetando las leyes \
-	que sean aplicables.  No compartimos ninguna información sobre Ud. con ninguna \
-	otra empresa.  Tan sólo usamos tres cookies, a saber: "JSESSIONID" para identificar \
-	su sesión de trabajo, "remember" para mantener su información de autentificación \
-	durante un máximo de 31 días y "language" para almacenar sus preferencias de \
-	lenguage.  Además, almacenamos un ítem llamado "returnStack" en el almacenamiento \
-	local de su navegador para saber dónde tienen que ir algunos botones.
+master.license.text = Puedes usar esta licencia gratis siempre comunicándolo previamente a la compañia y mencionándola en tu web principal.
 	

@@ -16,8 +16,8 @@ master.banner.background = #FFE97F
 
 master.welcome.title = Welcome!
 master.welcome.text = \
-	Welcome to Starter Project! Never before has it bee easier to get your \
-	project up and running!
+	Welcome to Acme-Jobs, your favourite web to find your ideal job!
+
 
 # master.menu #################################################################
 
@@ -114,24 +114,15 @@ master.footer.label.spanish = Spanish
 
 # master.company ##############################################################
 
-master.company.title = La compañía
-master.company.text = \
-	Starter Project, Inc. is a fictitious fictitious company that provides a \
-	starter project for the students of the Design and Testing subject of the \
-	Software Engineering Curriculum of the University of Sevilla.
-master.company.name = Starter Project, Inc.
-master.company.address = Number Street, City, State, Country
-master.company.phone = +000 123 456
-master.company.email = contact@acme.com
+master.company.title = Acme Jobs Company
+master.company.text = Acme Jobs Company offers the best plataform to look for a job of the entire world.
+
+master.company.name = AcmeJobs, Inc.
+master.company.address = 42 Avenida Reina Mercedes, Seville, Seville, Spain
+master.company.phone = +34 606 313 167
+master.company.email = acme-jobs-2019@gmail.com
 
 # master.license ##############################################################
 
 master.license.title = License
-master.license.text = \
-	You may use this system free of charge, as long as you carefully observe the \
-	existing applicable laws.  Please, note that we do not share any information \
-	about you with any other company.  We only use three cookies, namely: \
-	"JSESSIONID" to identify your work session, "remember" to let you authenticate \
-	automatically for a maximum of 31 days, and "language" to store your language \
-	preferences. Additionally, we store an item called "returnStack" in your browser's \
-	local storage to keep track of the document to which some buttons must return.
+master.license.text = You can use this license for free but always communicating it before to the company and mentioning it the your main web.
