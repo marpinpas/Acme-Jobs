@@ -22,7 +22,7 @@
 	<version>1.0</version>
 	<packaging>war</packaging>
 
-	<name>Starter-Project</name>
+	<name>acme-jobs</name>
 	<description>This is the Starter Project for the students of Design &amp; Testing.</description>
 
 	<parent>
