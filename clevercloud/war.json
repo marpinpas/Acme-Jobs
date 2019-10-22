@@ -1,0 +1,16 @@
+{
+		"build": {
+				"type": "maven",
+				"goal": "clean compile package"
+		},
+		"deploy": { 
+			"container": "TOMCAT8",
+			"var": [{
+				"file": "target/acme-jobs-1.0.war",
+				"context": "/",
+				"port": 80
+			}]
+		}
+
+
+}
