@@ -26,15 +26,6 @@ master.menu.sign-up = Sign up
 master.menu.sign-in = Sign in
 master.menu.sign-out = Sign out
 
-# master.menu.anonymous #######################################################
-
-master.menu.anonymous = Anonymous
-master.menu.anonymous.javier-link = Romero's link
-master.menu.anonymous.fran-link = Arroyo's link
-master.menu.anonymous.blanco-link = Blanco's link
-master.menu.anonymous.adri-link = Fernandez's link
-master.menu.anonymous.mari-link = Pinero's link
-master.menu.anonymous.carlos-link = Cruz's link
 
 # master.menu.anonymous.pinerobulletin ###############################################
 

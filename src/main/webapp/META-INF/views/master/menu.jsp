@@ -17,16 +17,7 @@
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
 <acme:menu-bar code="master.menu.home">
-	<acme:menu-left>
-		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
-			<acme:menu-suboption code="master.menu.anonymous.javier-link" action="https://github.com/fraromgon2us"/>
-			<acme:menu-suboption code="master.menu.anonymous.fran-link" action="https://github.com/fraarrapo"/>
-			<acme:menu-suboption code="master.menu.anonymous.blanco-link" action="https://github.com/A-Blanco"/>
-			<acme:menu-suboption code="master.menu.anonymous.adri-link" action="https://github.com/AdriFerna"/>
-			<acme:menu-suboption code="master.menu.anonymous.mari-link" action="https://github.com/marpinpas"/>
-			<acme:menu-suboption code="master.menu.anonymous.carlos-link" action="https://github.com/CarlosXUS"/>
-		</acme:menu-option>
-		
+	<acme:menu-left>	
 		<acme:menu-option code="master.menu.anonymous.pinerobulletin" access="isAnonymous()">
 			<acme:menu-suboption code="master.menu.anonymous.list.pinerobulletin" action="/anonymous/pinero-bulletin/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.create.pinerobulletin" action="/anonymous/pinero-bulletin/create"/>
