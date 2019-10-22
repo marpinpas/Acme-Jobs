@@ -12,7 +12,7 @@ anonymous.cruz.form.label.author = Author:
 anonymous.cruz.form.label.age = Age:
 anonymous.cruz.form.label.phone = Phone:
 anonymous.cruz.form.label.text = Text:
-anonymous.cruz.form.button.create = Submit
+anonymous.cruz.form.button.create = Create
 anonymous.cruz.form.button.return = Return
 
 anonymous.cruz.list.label.author = Author

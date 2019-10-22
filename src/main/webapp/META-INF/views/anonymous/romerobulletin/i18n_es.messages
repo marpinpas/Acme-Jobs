@@ -1,4 +1,4 @@
-# i18n_es.messages
+﻿# i18n_es.messages
 anonymous.romerobulletin.list.label.name = Nombre
 anonymous.romerobulletin.list.label.surnames = Apellidos
 anonymous.romerobulletin.list.label.place =  Lugar
@@ -19,6 +19,6 @@ anonymous.romero.form.label.free.yes = Sí
 anonymous.romero.form.label.free.no = No
 
 
-anonymous.romero.button.create = Crear Bulletin
+anonymous.romero.button.create = Crear
 anonymous.romero.button.return = Volver
 
