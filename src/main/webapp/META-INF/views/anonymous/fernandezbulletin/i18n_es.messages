@@ -1,8 +1,8 @@
-anonymous.fernandezbulletin.form.label.name = Nombre:
+﻿anonymous.fernandezbulletin.form.label.name = Nombre:
 anonymous.fernandezbulletin.form.label.country = Pais:
 anonymous.fernandezbulletin.form.label.email = Email:
 anonymous.fernandezbulletin.form.label.address = Dirección:
-anonymous.fernandezbulletin.form.button.create = Enviar
+anonymous.fernandezbulletin.form.button.create = Crear
 anonymous.fernandezbulletin.form.button.return = Volver
 
 anonymous.fernandezbulletin.list.label.name = Nombre

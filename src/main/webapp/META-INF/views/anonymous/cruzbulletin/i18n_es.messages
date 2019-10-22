@@ -1,4 +1,4 @@
-# i18n_es.messages
+﻿# i18n_es.messages
 #
 # Copyright (c) 2019 Rafael Corchuelo.
 #
@@ -12,7 +12,7 @@ anonymous.cruz.form.label.author = Autor:
 anonymous.cruz.form.label.age = Edad:
 anonymous.cruz.form.label.phone = Teléfono:
 anonymous.cruz.form.label.text = Texto:
-anonymous.cruz.form.button.create = Enviar
+anonymous.cruz.form.button.create = Crear
 anonymous.cruz.form.button.return = Volver
 
 anonymous.cruz.list.label.author = Autor

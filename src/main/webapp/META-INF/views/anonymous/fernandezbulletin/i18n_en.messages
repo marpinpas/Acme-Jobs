@@ -2,7 +2,7 @@ anonymous.fernandezbulletin.form.label.name = Name:
 anonymous.fernandezbulletin.form.label.country = Country:
 anonymous.fernandezbulletin.form.label.email = Email:
 anonymous.fernandezbulletin.form.label.address = Address:
-anonymous.fernandezbulletin.form.button.create = Submit
+anonymous.fernandezbulletin.form.button.create = Create
 anonymous.fernandezbulletin.form.button.return = Return
 
 anonymous.fernandezbulletin.list.label.name = Name

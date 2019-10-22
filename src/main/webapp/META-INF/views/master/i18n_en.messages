@@ -29,13 +29,12 @@ master.menu.sign-out = Sign out
 # master.menu.anonymous #######################################################
 
 master.menu.anonymous = Anonymous
-master.menu.anonymous.favourite-link = Favourite link
-master.menu.anonymous.javier-link = Javier's link
-master.menu.anonymous.fran-link = Fran's link
+master.menu.anonymous.javier-link = Romero's link
+master.menu.anonymous.fran-link = Arroyo's link
 master.menu.anonymous.blanco-link = Blanco's link
-master.menu.anonymous.adri-link = Adri's link
-master.menu.anonymous.mari-link = Mari's link
-master.menu.anonymous.carlos-link = Carlos's link
+master.menu.anonymous.adri-link = Fernandez's link
+master.menu.anonymous.mari-link = Pinero's link
+master.menu.anonymous.carlos-link = Cruz's link
 
 # master.menu.anonymous.pinerobulletin ###############################################
 
@@ -57,7 +56,7 @@ master.menu.anonymous.create.cruz = Create
 
 # master.menu.anonymous.blancobulletin ###############################################
 
-master.menu.anonymous.blanco = Bulletin's Blanco
+master.menu.anonymous.blanco = Blanco's Bulletin
 master.menu.anonymous.list.blanco = List
 master.menu.anonymous.create.blanco = Create
 
