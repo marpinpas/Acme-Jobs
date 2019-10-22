@@ -5,7 +5,7 @@
 		},
 		"deploy": { 
 			"container": "TOMCAT8",
-			"var": [{
+			"war": [{
 				"file": "target/acme-jobs-1.0.war",
 				"context": "/",
 				"port": 80
