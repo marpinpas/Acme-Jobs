@@ -13,15 +13,7 @@
         primary key (`id`)
     ) engine=InnoDB;
 
-    create table `arroyo_bulletin` (
-       `id` integer not null,
-        `version` integer not null,
-        `date_time_birth` datetime(6),
-        `description` varchar(255),
-        `name` varchar(255),
-        `phone` varchar(255),
-        primary key (`id`)
-    ) engine=InnoDB;
+  
 
     create table `authenticated` (
        `id` integer not null,
@@ -30,16 +22,7 @@
         primary key (`id`)
     ) engine=InnoDB;
 
-    create table `blanco_bulletin` (
-       `id` integer not null,
-        `version` integer not null,
-        `email` varchar(255),
-        `hobby` varchar(255),
-        `name` varchar(255),
-        `profession` varchar(255),
-        `startdate` datetime(6),
-        primary key (`id`)
-    ) engine=InnoDB;
+    
 
     create table `consumer` (
        `id` integer not null,
@@ -50,55 +33,12 @@
         primary key (`id`)
     ) engine=InnoDB;
 
-    create table `cruz_bulletin` (
-       `id` integer not null,
-        `version` integer not null,
-        `age` integer,
-        `author` varchar(255),
-        `moment` datetime(6),
-        `phone` varchar(255),
-        `text` varchar(255),
-        primary key (`id`)
-    ) engine=InnoDB;
-
-    create table `fernandez_bulletin` (
-       `id` integer not null,
-        `version` integer not null,
-        `address` varchar(255),
-        `birthday` datetime(6),
-        `country` varchar(255),
-        `email` varchar(255),
-        `name` varchar(255),
-        primary key (`id`)
-    ) engine=InnoDB;
-
-    create table `pinero_bulletin` (
-       `id` integer not null,
-        `version` integer not null,
-        `body` varchar(255),
-        `signature` varchar(255),
-        `title` varchar(255),
-        primary key (`id`)
-    ) engine=InnoDB;
-
     create table `provider` (
        `id` integer not null,
         `version` integer not null,
         `user_account_id` integer,
         `company` varchar(255),
         `sector` varchar(255),
-        primary key (`id`)
-    ) engine=InnoDB;
-
-    create table `romero_bulletin` (
-       `id` integer not null,
-        `version` integer not null,
-        `fecha` datetime(6),
-        `free` bit,
-        `name` varchar(255),
-        `place` varchar(255),
-        `surnames` varchar(255),
-        `type` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
 
